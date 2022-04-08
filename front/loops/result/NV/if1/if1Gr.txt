@@ -1,0 +1,34 @@
+if clause (fd){3,}z*
+
+a) ideal:
+
+ - (df)*z* than need to calculate number of df-elements. Otherwise we have ambiguous ways. 
+S -> AB
+A -> '' | AA | CD
+C -> d 
+D -> f 
+B -> '' | BB | z
+
+ - dfdf(df)+z*
+ S -> AB
+ A -> CD
+ C -> EF
+ E -> d 
+ F -> f 
+ D -> CG
+ G -> GG | CH
+ H -> ''
+ B -> '' | BB | z
+
+ b) our case:
+
+ - fdfdfzd
+ S -> AB
+ A -> f
+ B -> CD
+ C -> EA
+ E -> d
+ D -> CF 
+ F -> GE
+ G -> z
+ [['S','AB'],['A','f'],['B','CD'],['C','EA'],['E','d'],['D','CF'],['F','GE'],['G','z']]

@@ -1,0 +1,5 @@
+Switch not accepted.
+
+suggestion: any -> switch == j 
+
+Need to detect j in word.

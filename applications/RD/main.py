@@ -287,7 +287,11 @@ if __name__ == '__main__':
 
         prep_core_inp_file = os.path.join(working_dir, "prepr_core_input.txt")
 
-        def emit_grammar(gr=[['S','AB'],['A','b'],['B','c']], path="1.txt"):
+        # def emit_grammar(gr=[['S','AB'],['A','b'],['B','c']], path="1.txt"):
+        # def emit_grammar(gr=[['S', 'AB'], ['A', 'CD'], ['C', 'f'], ['D', 'EF'], ['E', 'e'], ['F', 'z'], ['B', 'GH'], ['G', 'g'], ['H', 'd']], path="1.txt"):
+        # def emit_grammar(gr=[['S','AB'],['A','CD'],['B','FG'],['C','DE'],['D','f'],['E','d'],['G','FH'],['H','FI'],['I','FE']], path="1.txt"):
+        # def emit_grammar(gr=[['S','AB'],['A','CD'],['C','d'],['D','f'],['B','EF'],['E','z'],['F','GH'],['G','z'],['H','z']], path="1.txt"):
+        def emit_grammar(gr=[['S','AB'],['A','f'],['B','CD'],['C','z'],['D','CE'],['E','CF'],['F','CG'],['G','d']], path="1.txt"):
             with open(path, "w") as f:
                 f.write("1\n")
                 f.write(str(len(gr))+"\n")

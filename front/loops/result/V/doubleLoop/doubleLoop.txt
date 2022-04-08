@@ -1,0 +1,21 @@
+double loop: fz*d - vectorize only inner loop, outer loop - parallelism
+
+a) ideal:
+S -> AB
+A -> f
+B -> CD
+C -> CC | '' | z
+D -> d
+
+b) our case:
+
+ - fzzzzd
+S -> AB
+A -> f 
+B -> CD
+C -> z
+D -> CE
+E -> CF
+F -> CG
+G -> d
+[['S','AB'],['A','f'],['B','CD'],['C','z'],['D','CE'],['E','CF'],['F','CG'],['G','d']]

@@ -1,0 +1,20 @@
+simple loop: fz*d
+
+a) ideal:
+S -> AB
+A -> f
+B -> CD
+C -> CC | '' | z
+D -> d
+
+b) our case:
+
+ - fzzzd
+S -> AB
+A -> f 
+B -> CD
+C -> z
+D -> CE
+E -> CF
+F -> d
+[['S','AB'],['A','f'],['B','CD'],['C','z'],['D','CE'],['E','CF'],['F','d']]

@@ -1,0 +1,36 @@
+if clause: fz*dfz*d
+
+a) ideal:
+S -> AB
+A -> CD
+C -> EF
+E -> f
+F -> FF | '' | z
+D -> IE
+I -> d
+B -> FI
+
+b) our case:
+
+ - fdfzzzzd
+S -> AB
+A -> CD
+C -> DE
+D -> f
+E -> d
+B -> FG
+F -> z
+G -> FH
+H -> FI
+I -> FE
+[['S','AB'],['A','CD'],['C','DE'],['D','f'],['E','d'],['B','FG'],['F','z'],['G','FH'],['H','FI'],['I','FE']]
+
+ - fdfzd 
+ S -> AB 
+ A -> CD
+ C -> f 
+ D -> EC
+ E -> d 
+ B -> FE
+ F -> z
+[['S','AB'],['A','CD'],['C','f'],['D','EC'],['E','d'],['B','FE'],['F','z']]

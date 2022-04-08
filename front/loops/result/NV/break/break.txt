@@ -1,0 +1,5 @@
+Bounds of cycle (break)
+
+suggestion: any -> goto == i (i > f)
+
+It's not a cycle. Idk how to handle it yet. 

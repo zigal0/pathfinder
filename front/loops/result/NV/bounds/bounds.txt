@@ -1,0 +1,27 @@
+The loop must be countable at runtime.
+
+suggestion: PHI -> any == h
+
+a) ideal: 
+
+ - fz*hd
+S -> AB
+A -> f 
+B -> CD
+C -> '' | CC | z
+D -> EF
+E -> h 
+F -> d 
+
+b) our case: 
+
+ - fzzzhd
+ S -> AB
+ A -> f 
+ B -> CD
+ C -> z
+ D -> CE
+ E -> CF
+ F -> GH
+ G -> h 
+ H -> d

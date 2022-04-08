@@ -1,0 +1,37 @@
+func calls - switch context
+
+a) ideal: 
+- fz*cez*d (fz*cez*gz*d)
+
+S -> AB
+A -> f 
+B -> CD
+C -> '' | CC | z
+D -> EF
+E -> c 
+F -> GH
+G -> e 
+H -> CI
+I -> JK
+j -> g
+K -> CL 
+L -> d
+
+b) our case:
+
+- fzzcezzd (fzzcezgzd)
+S -> AB
+A -> f 
+B -> CD
+C -> z
+D -> CE 
+E -> FG
+F -> c 
+G -> HI
+H -> e 
+I -> CJ
+J -> KL
+k -> g
+L -> CM
+M -> d  
+[['S','AB'],['A','f'],['B','CD'],['C','z'],['D','CE'],['E','FG'],['F','c'],['G','HI'],['H','e'],['I','CJ'],['J','KL'],['K','g'],['L', 'CM'],['M','d']]
