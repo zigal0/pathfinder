@@ -29,3 +29,9 @@
 * https://linux-doc.ru/programming/assembler/book/compilers.pdf
 ## CF constraints:
 * https://mipt.ru/upload/medialibrary/023/02.pdf
+## Other:
+* https://mipt.ru/drec/upload/44f/ermoletsky_110207-arpgkpldb0n.pdf
+* https://hpc-forge.cineca.it/files/ScuolaCalcoloParallelo_WebDAV/public/anno-2017/26th_Summer_School_on_Parallel_Computing/Roma/VECTORIZATION-slides.pdf
+* http://conf.nsc.ru/files/conferences/opcs2017/416056/RMoldovanova-kulagin-kurnosov.pdf
+* https://ssd.sscc.ru/sites/default/files/content/attach/317/lecture2015_10_vectorization.pdf
+* https://intuit.ru/studies/courses/10611/1095/lecture/22915?page=2
